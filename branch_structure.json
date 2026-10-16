@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/issue-129-feat-web3-granular-gas-limit-soroban-cpu-memory",
+    "feat/issue-129-feat-web3-granular-gas-limit-soroban-cpu-memory-r2",
+    "feat/issue-130-feat-web3-account-sequence-desynchronization",
+    "feat/issue-130-feat-web3-account-sequence-desynchronization-r2",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/issue-129-feat-web3-granular-gas-limit-soroban-cpu-memory": "main",
+    "feat/issue-129-feat-web3-granular-gas-limit-soroban-cpu-memory-r2": "feat/issue-129-feat-web3-granular-gas-limit-soroban-cpu-memory",
+    "feat/issue-130-feat-web3-account-sequence-desynchronization": "main",
+    "feat/issue-130-feat-web3-account-sequence-desynchronization-r2": "feat/issue-130-feat-web3-account-sequence-desynchronization",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/issue-129-feat-web3-granular-gas-limit-soroban-cpu-memory",
+    "feat/issue-130-feat-web3-account-sequence-desynchronization",
+    "origin",
+    "feat/issue-129-feat-web3-granular-gas-limit-soroban-cpu-memory-r2",
+    "feat/issue-130-feat-web3-account-sequence-desynchronization-r2"
+  ]
+}
